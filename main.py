@@ -88,7 +88,7 @@ def endGame(name):
    chooseXO()
    
  else:
-   print('was nice with your ass, bitch')
+   print('game is over')
    quit()
    
    
@@ -126,13 +126,13 @@ def checkInput():
  print(array1[2][0], array1[2][1], array1[2][2])
  print("  ")
  
- variable = 'IM INSIDE'
+ variable = ' '
 
  winner = checkWinner(array1)
  if winner:
    
   variable = str(winner)
-  print(variable + " this is the winner bitch")
+  print(variable + " this is the winner")
 
   if variable == player1:
    print("the winner is " + name1)
