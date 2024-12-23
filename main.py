@@ -2,8 +2,6 @@
 
 # Press Shift+F6 to execute it or replace it with your code.
 
-# cd C:\Users\jacsi\Documents\NetBeansProjects\TicTacToe
-
 import keyboard 
 import datetime
 import platform
